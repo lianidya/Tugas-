@@ -1,0 +1,120 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPWBcYudUpLooidrA9QU5LL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lianidya/Tugas-/blob/main/TUGAS_WEEK_11_LIA_NIDYA.zip\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Weekly 1**"
+      ],
+      "metadata": {
+        "id": "Ky2cBN0VoUgf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "PI = 3.14159\n",
+        "\n",
+        "def hitung_luas_lingkaran(jari_jari):\n",
+        "    \"\"\"Menghitung luas lingkaran berdasarkan jari-jari.\"\"\"\n",
+        "    return PI * (jari_jari ** 2)\n",
+        "\n",
+        "def hitung_luas_persegi(sisi):\n",
+        "    \"\"\"Menghitung luas persegi berdasarkan panjang sisi.\"\"\"\n",
+        "    return sisi ** 2\n",
+        "\n",
+        "def hitung_luas_persegi_panjang(panjang, lebar):\n",
+        "    \"\"\"Menghitung luas persegi panjang berdasarkan panjang dan lebar.\"\"\"\n",
+        "    return panjang * lebar"
+      ],
+      "metadata": {
+        "id": "IUvXs7FI_yQU"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Weekly** **2**"
+      ],
+      "metadata": {
+        "id": "0CepobB2AGR3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "x = 25\n",
+        "akar_kuadrat = math.sqrt(x)\n",
+        "print(f\"Akar kuadrat dari {x} adalah: {akar_kuadrat}\")\n",
+        "\n",
+        "n = 7\n",
+        "faktorial = math.factorial(n)\n",
+        "print(f\"Faktorial dari {n} adalah: {faktorial}\")\n",
+        "\n",
+        "base = 3\n",
+        "exponent = 5\n",
+        "pangkat = math.pow(base, exponent)\n",
+        "print(f\"{base} pangkat {exponent} adalah: {pangkat}\")\n",
+        "\n",
+        "sudut_radian = math.radians(45)\n",
+        "cosinus = math.cos(sudut_radian)\n",
+        "print(f\"Cosinus dari 45 derajat adalah: {cosinus}\")\n",
+        "\n",
+        "nilai = 256\n",
+        "basis = 2\n",
+        "logaritma = math.log(nilai, basis)\n",
+        "print(f\"Logaritma dari {nilai} dengan basis {basis} adalah: {logaritma}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jtWTI5RwOkUl",
+        "outputId": "e4b5b162-075f-4ae0-c18c-f385ba3a01a4"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Akar kuadrat dari 25 adalah: 5.0\n",
+            "Faktorial dari 7 adalah: 5040\n",
+            "3 pangkat 5 adalah: 243.0\n",
+            "Cosinus dari 45 derajat adalah: 0.7071067811865476\n",
+            "Logaritma dari 256 dengan basis 2 adalah: 8.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
